@@ -1,0 +1,62 @@
+.new-title {
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    h4 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; 
+        text-transform: capitalize;
+        color: $primary-dark-blue;
+    }
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px ;
+    .card {
+        // width: 264px;
+        // height: 370px;
+        display: flex;
+        padding: 8px 8px 0px 8px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 12px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            box-shadow: 0px 4px 28px -2px $neutral-color-20;
+            cursor: pointer;
+        }
+        
+    }
+    img {
+            border-radius: 12px;
+        }
+    .card-body {
+        
+        h5 {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px; 
+          color:$neutral-color-100; 
+        }
+        p {
+            span {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+                color: $neutral-color-60;
+            }
+        }
+    }
+}
+.small {
+    display: none;
+}

@@ -1,0 +1,147 @@
+.main-bg {
+    background-color:$secondary-lightmon-yellow ;
+    // min-height: 780px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 0 0 40px 40px;
+    nav {
+    justify-content: space-between;
+    
+    
+    .buttons {
+        gap: 10px;
+    }
+    
+    }
+    .main-header {
+        // position: sticky ;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 9999;
+       
+    }
+    
+}
+.nav-items {
+    gap: 20px;
+    .nav-item {
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 24px;
+       color: $primary-dark-blue;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: $primary-dark-blue;
+    
+
+    .fa-caret-down {
+        cursor: pointer;
+        
+    }
+
+    #lang:checked + .dropdown-menu {
+    display: flex;
+}
+}
+.dropdown-menu {
+    width: 170px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$neutral-color-0;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px $neutral-color-40;
+    transition: all 0.3s ease-in-out;
+    
+    li {
+        margin-block: 15px;
+        
+        
+        a:hover {
+            
+            padding-left: 10px;
+        }
+    }
+}
+.fa-x {
+    right: 10%;
+    position: absolute;
+    color: white;
+}
+.fabar {
+    display: none;
+    color: $primary-dark-blue;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    
+    width: 359px;
+    height: 794px;
+    color: white;
+    background-color:$primary-dark-blue;
+    
+    padding: 1em;
+    z-index: 10000;
+   
+    transition: all 0.3s ease-in-out;
+}
+.side-items {
+    flex-direction: column;
+    margin-top: 20%;
+    padding-inline: 2rem;
+    gap: 20px;
+
+    li:hover {
+        color:$secondary-normalmon-yellow ;
+    }
+}
+.side-buttons {
+    flex-direction: column;
+    padding-inline: 2rem;
+    gap: 20px;
+    margin-top: 5%;
+}
+.side-btn1 {
+    width: 260px;
+    
+}
+.side-btn2 {
+    background-color: $secondary-normalmon-yellow;
+    color: $neutral-color-0;
+    
+}
+.items {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+#menu:checked + .sidebar {
+   left: 0;
+}
+.glass2 {
+    color: $primary-dark-blue;
+    display: none;
+}
+
+

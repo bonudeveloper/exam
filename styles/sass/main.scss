@@ -1,0 +1,18 @@
+//base
+@import "base/variables";
+@import "base/utils";
+@import "base/reset";
+
+//partials 
+@import "./partials/header";
+@import "./partials/showcase";
+@import "./partials/new";
+@import "./partials/friend";
+@import "./partials/products";
+@import "./partials/partners";
+@import "./partials/adoption";
+@import "./partials/knowledge";
+@import "./partials/footer";
+
+//responsive
+@import "responsive";

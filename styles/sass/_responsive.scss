@@ -1,0 +1,310 @@
+$desktop: 1440px;
+$tablet: 834px;
+$mobile: 414px;
+
+@media (max-width:$desktop) {
+    .container {
+        width: 572px;
+    }
+    .fabar {
+        display: block;
+    }
+    .glass2 {
+        display: block;
+    }
+    
+    .dropbth, .fa-caret-down {
+         display: none;
+    }
+    .main-bg {
+        min-height:780px ;
+        nav {
+            justify-content: space-between;
+            .main-logo {
+                margin-left: 20%;
+            }
+            .buttons{
+                display: none;
+            }
+        }
+    }
+    .nav-items {
+        display: none;
+    }
+    #showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       .show1 {
+        top: 90%;
+        right: 27%;
+        // position: static;
+       }
+       .show2, .show3 {
+        top: 90%;
+        right: 35%;
+        // z-index: -1;
+       }
+       .h1-img {
+        display: none;
+       }
+       .midlle-img3 {
+        display: none;
+       }
+       .midlle-img1,.midlle-img2 {
+        left: 30%;
+       }
+       .show-top {
+        left: 20%;
+       }
+       .showcase-title {
+        p {
+            width: 382px;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px;
+        }
+        h1 {
+            font-size: 46px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 60px; 
+            text-transform: capitalize;
+            span {
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 38px; 
+                text-transform: capitalize;
+            }
+        }
+       }
+       
+       
+    
+        
+    }
+    .showcase-intro {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left-bottom {
+            display: none;
+        }
+
+        #new {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       #new {
+          .cards {
+            
+        
+               grid-template-columns: repeat(2, 1fr);
+            }
+       }
+     .friend-intro {
+        // width: 572px;
+        height: 640px;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+       .friend-text {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p {
+            width: 342px;
+            padding: 0;
+            
+        }
+        h2 {
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 54px; 
+            text-transform: capitalize;
+            padding-top: 3%;
+            line-height: 105%;
+            span {
+                font-size: 24px;
+            }
+        }
+       }
+       .explore {
+        width: 524px;
+        height: 349px;
+        position: absolute;
+        top: 50%;
+       }
+       .new1 {
+         top: 73%;
+         right: 7%;
+       }
+       .new2 {
+        display: none;
+        
+       }
+       .midlle {
+        position: absolute;
+        display: block;
+        z-index: -1;
+        
+       }
+     }  
+    #products {
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    #partners, #adoption{
+        display: none;
+    }
+    #knowledge {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .knowladge-cards {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .card {
+            width: 364px;
+            margin: 0 auto;
+            // align-self: center;
+        }
+        .card2 {
+            display: none;
+        }
+    }
+    footer {
+        h2 {
+            font-size: 20px;
+        }
+        .footer-text {
+            flex-direction: column;
+            padding: 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
+        }
+        .contact {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .finish {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    form {
+        input {
+            width: auto;
+            padding: 14px 28px;
+        }
+    }
+}
+
+@media (max-width:$tablet) {
+    .container {
+        width: 382px;
+    }
+    .main-bg {
+        min-height: 880px;
+    }
+    #showcase {
+        .showcase-title {
+            padding-left: 20px;
+        }
+
+        h1 {
+            margin-top: 20%;
+        }
+        .show1 {
+            top: 100%;
+            // left: 10%;
+            right: 5%;
+        }
+        .show2, .show3 {
+            left:20% ;
+            top: 103%;
+        }
+        .midlle-img1, .midlle-img2 {
+            left: 70%;
+            top: 50%;
+        }
+        .show-top {
+            left:10% ;
+        }
+    }
+    #knowledge {
+        .card2 {
+            display: block;
+        }
+        
+        .knowladge-cards {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    
+    .smallk {
+        display: flex;
+    }  
+    .big {
+        display: none;
+    }
+    .small {
+        display: flex;
+    }
+    form {
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:$mobile) {
+    .container {
+        width: 100%;
+        padding-inline: 15px;
+    }
+    .main-bg {
+        min-height: 670px;
+    }
+    #showcase {
+        .midlle-img1, .midlle-img2 {
+            top: 45%;
+            left: 75%;
+        }
+        // .showcase-title {
+        //     padding-left: 0;
+        // }
+    }
+    .friend-intro {
+        width: 100%;
+    }
+    #knowledge {
+        .cards {
+            width: 100%;
+        }
+        .smallk {
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.knowladge-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 5%;
+    .card-body {
+    span {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        // display: flex;
+        padding: 2px 10px;
+        align-items: flex-start;
+        gap: 10px;
+        background-color: $state-color-blue-sea;
+        border-radius: 28px;
+        color:$neutral-color-0 ;
+    }
+    h5 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: $primary-dark-blue;
+    }
+    p {
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+        color: $neutral-color-80;
+    }
+}
+}
+.smallk {
+    display: none;
+    // display: inline-flex;
+    // width: 300px;
+}

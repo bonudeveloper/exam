@@ -1,0 +1,50 @@
+.adopt-intro {
+    background-color:$secondary-darkmon-yellow ;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+    .adopt1 {
+        position: absolute;
+        z-index: -1;
+        right: 50%;
+    }
+    .adopt2 {
+        position: absolute;
+        z-index: -1;
+        left: 41%;
+        top: 20%;
+    }
+    h2 {
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 68px; 
+        text-transform: capitalize;
+        color: $primary-dark-blue;
+    }
+    h3 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px; 
+        text-transform: capitalize;
+        color: $primary-dark-blue;
+    }
+    p {
+        width: 394px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; 
+        color: $neutral-color-80;
+    }
+    .buttons-adopt {
+        gap: 10px;
+        margin-top: 3%;
+    }
+    
+}
+.lapka {
+    gap: 10px;
+}

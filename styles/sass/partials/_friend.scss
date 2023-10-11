@@ -1,0 +1,58 @@
+.friend-intro {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 378px;
+    border-radius: 20px;
+    background: #003459;
+    overflow: hidden;
+    .new1 {
+       position: absolute;
+       z-index: -1;
+       top: 20%;
+       right: 43%;
+    }
+    .new2 {
+        position: absolute;
+        left: 47%;
+        
+        z-index: -1;
+    }
+    .midlle {
+        display: none;
+    }
+}
+.friend-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .intro-buttons {
+        gap: 10px;
+    }
+    h2 {
+        color: $primary-dark-blue;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 68px; 
+        text-transform: capitalize;
+        span {
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 54px; 
+            text-transform: capitalize;
+        }
+    }
+    p {
+        width: 394px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        color: $neutral-color-80; 
+    }
+}

@@ -1,0 +1,17 @@
+.priz {
+    display: flex;
+    padding: 6px 10px 4px 10px;
+    align-items: center;
+    gap: 2px;
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: $secondary-lightmon-yellow;
+    margin-bottom: 5%;
+    p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        color: $primary-dark-blue;
+    }
+}

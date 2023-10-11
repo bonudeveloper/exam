@@ -1,0 +1,86 @@
+form {
+    background-color: $neutral-color-0;
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 14px;
+
+    input {
+    display: flex;
+    padding: 14px 28px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid $neutral-color-40;
+    width: 452px;
+}
+button {
+    all: unset;
+    display: flex;
+    width: 163px;
+    padding: 14px 28px 10px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background-color: $primary-dark-blue;
+    border-radius: 8px;
+    color: $neutral-color-0;
+}
+}
+
+footer {
+    background-color: $footer-bg;
+    border-radius: 40px 40px 0 0;
+    h2 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; 
+        text-transform: capitalize;
+        color: $neutral-color-0;
+    }
+    .footer-text {
+        background-color: $primary-dark-blue;
+        display: flex;
+        padding: 32px;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 16px;
+    }
+    .contact {
+        justify-content: space-between;
+        padding-block: 5%;
+        
+        border-bottom: 2px solid $neutral-color-40;
+        margin-bottom: 5%;
+        .footer-items {
+            gap: 40px;
+         a {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 24px;
+            color: $neutral-color-100;
+            
+        }
+        }
+    }
+    .finish-item {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        color: $neutral-color-60;
+    }
+    .footer-icons {
+        gap: 40px;
+        .icons {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .footer-intro {
+        padding-block: 4rem;
+    }
+}

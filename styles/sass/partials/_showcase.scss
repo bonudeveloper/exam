@@ -1,0 +1,94 @@
+#showcase {
+    h1 {
+        color: $primary-dark-blue;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 68px; 
+        text-transform: capitalize;
+
+        span {
+        color: $primary-dark-blue;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; 
+        text-transform: capitalize;
+    }
+    }
+    p {
+        width: 480px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        color:$neutral-color-80 ; 
+    }
+    .intro-buttons {
+        gap: 15px;
+        margin-top: 5%;
+    }
+}
+.showcase-intro {
+    justify-content: space-between;
+}
+
+#showcase {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .showcase-intro {
+        padding-top: 5%;
+        justify-content: space-between;
+    }
+    .h1-img {
+        position: absolute;
+        z-index: -1;
+        top: 27%;
+        left: 11%;
+    }
+    .intro-img {
+        margin-top: 7%;
+    }
+    .show1 {
+        position: absolute;
+        z-index: 3;
+        right: 12%;
+        // position: static;
+        
+    }
+    .show2 {
+        position: absolute;
+        right: 16%;
+        top: 30%;
+        z-index: 2;
+    }
+    .show3 {
+        position: absolute;
+        right: 20%;
+        z-index: 1;
+    }
+    .show-top {
+        position: absolute;
+        left: 0;
+        bottom: 75%;
+        
+    }
+    .midlle-img1 {
+        position: absolute;
+        left: 45%;
+        top: 40%;
+    }
+    .midlle-img2 {
+        position: absolute;
+        left: 45%;
+        top: 37%;
+    }
+    .midlle-img3 {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+    }
+}
