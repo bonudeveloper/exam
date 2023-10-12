@@ -214,6 +214,42 @@ $mobile: 414px;
             padding: 14px 28px;
         }
     }
+    .circle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid $neutral-color-40;
+  border-top-color:$secondary-darkmon-yellow ;
+  background-color: $neutral-color-0;
+  border-radius: 50%;
+  
+  animation: yashil 3s linear infinite;
+}
+
+@keyframes yashil {
+  to {
+     transform: rotate(360deg);
+  }
+}
+
+.preload {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background-color: $neutral-color-0;
+    justify-content: center;
+    align-items: center;
+    animation: load 3s linear forwards;
+}
+@keyframes load {
+    from {
+        display: flex;
+    }
+    to {
+        display: none;
+    }
+}
 }
 
 @media (max-width:$tablet) {
@@ -277,6 +313,42 @@ $mobile: 414px;
         justify-content: center;
         align-items: center;
     }
+    .circle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid $neutral-color-40;
+  border-top-color:$secondary-darkmon-yellow ;
+  background-color: $neutral-color-0;
+  border-radius: 50%;
+  
+  animation: yashil 3s linear infinite;
+}
+
+@keyframes yashil {
+  to {
+     transform: rotate(360deg);
+  }
+}
+
+.preload {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background-color: $neutral-color-0;
+    justify-content: center;
+    align-items: center;
+    animation: load 3s linear forwards;
+}
+@keyframes load {
+    from {
+        display: flex;
+    }
+    to {
+        display: none;
+    }
+}
 }
 
 @media (max-width:$mobile) {
@@ -307,4 +379,40 @@ $mobile: 414px;
             display: flex;
         }
     }
+    .circle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid $neutral-color-40;
+  border-top-color:$secondary-darkmon-yellow ;
+  background-color: $neutral-color-0;
+  border-radius: 50%;
+  
+  animation: yashil 3s linear infinite;
+}
+
+@keyframes yashil {
+  to {
+     transform: rotate(360deg);
+  }
+}
+
+.preload {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background-color: $neutral-color-0;
+    justify-content: center;
+    align-items: center;
+    animation: load 3s linear forwards;
+}
+@keyframes load {
+    from {
+        display: flex;
+    }
+    to {
+        display: none;
+    }
+}
 }
